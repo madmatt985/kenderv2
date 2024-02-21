@@ -3,5 +3,5 @@ work in progress. anycubic kobra v1 with creality sprite pro extruder and hot en
 or how tight the board fan is to all the wires, added Dual z mod with nema 17 28 steepers from .... not ldo, mostly new wiring to each stepper (very painful) set to use sensorless homing ,
 bed screws (not accurate at this time) i have not finised distance testing for any of the steppers at this time.
 
-
+This is my latest iteration of the anycubic project i have been working on to klipperize. It started with some stuff from the orignal board,hardware and evolved to what is listed above.
 WORK IN PROGRESS I HAVE NOT MADE THE FIRST PRINT AS OF YET (2/20/24). i am migrating my workstations an using get as a backup.
