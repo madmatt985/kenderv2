@@ -1,0 +1,33 @@
+
+
+
+[display]
+lcd_type: emulated_st7920
+spi_software_miso_pin: PD8 # status led, Virtual MISO
+spi_software_mosi_pin: PD6
+spi_software_sclk_pin: PB9
+en_pin: PB8
+encoder_pins: ^PA10, ^PA9
+click_pin: ^!PA15
+
+[output_pin beeper]
+pin: PB5
+
+[bed_screws]
+screw1:75,76
+screw1_name: front left screw
+#screw1_fine_adjust: # An X, Y coordinate to command the nozzle to so that one can fine
+######tune the bed leveling screw. The default is to not perform fine adjustments on the bed screw.
+screw2:237,76
+screw2_name: front right screw
+#screw2_fine_adjust: (see #screw1_fine_adjust: description same)
+screw3:237,228
+screw3_name: rear right screw
+#screw3_fine_adjust: (see #screw1_fine_adjust: description same)
+screw4:75,228
+screw4_name: rear left screw
+#screw4_fine_adjust: (see #screw1_fine_adjust: description same)
+horizontal_move_z: 5
+#probe_height: 0#   The height of the probe after adjusting for the thermal expansion of bed and nozzle. The default is zero.
+speed: 50  #The speed (in mm/s) of non-probing moves during the calibration. The default is 50. 
+probe_speed: 5 #The speed (in mm/s) when moving from a horizontal_move_z position to a probe_height position. The default is 5.
